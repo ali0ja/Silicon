@@ -11,7 +11,7 @@ const Testimonial = ({ item }) => {
           <img loading="lazy" src={item.avatarUrl} className="img-38" />
           <div className="info">
             <div className="name">{item.author}</div>
-            <div className="position">{item.jobbRole}</div>
+            <div className="position">{item.jobRole}</div>
           </div>
         </div>
       </div>
